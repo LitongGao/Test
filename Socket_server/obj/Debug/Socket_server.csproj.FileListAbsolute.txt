@@ -1,0 +1,2 @@
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\Socket_server\bin\Debug\Socket_server.exe.config
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\Socket_server\obj\Debug\Socket_server.csprojResolveAssemblyReference.cache

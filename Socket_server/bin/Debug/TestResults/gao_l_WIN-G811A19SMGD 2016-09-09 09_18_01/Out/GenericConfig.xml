@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item Key="WorkingDir" Value="C:\Pearl\" />
+    <Item Key="DFLinkSubDir" Value="DFLink" />
+    <Item Key="DFLinkUploadLogFile" Value="DFLinkUploadLog.txt" />
+    <!-- Configuration of product common -->
+    <Item Key="ProductName" Value="Demandforce Sync Client" />
+    <Item Key="AppInstallPath" Value="C:\Intuit\Demandforce" />
+    <Item Key="AppAdminSubPath" Value="Sync Client\DFLinkAdmin" />
+    <Item Key="AppClientSubPath" Value="Sync Client\DFLinkClient" />
+    <Item Key="AppUpdateSubPath" Value="Sync Client\DFLinkUpdate" />
+    <Item Key="ProgramDataDir" Value="C:\ProgramData\Demandforce" />
+    <Item Key="ConfigSubDir" Value="Sync Client\Config" />
+    <Item Key="LogSubDir" Value="Sync Client\Logs" />
+    <Item Key="RemoteConfigFileName" Value="df_remote_config.json" />
+    <Item Key="AppInstallLogFile" Value="DFLink_Log.log" />
+    <Item Key="AppAdminLogFile" Value="DFLinkAdmin_Log.log" />
+    <Item Key="AppAdminSplunkLogFile" Value="DFLinkAdmin_SplunkLog.log" />
+    <Item Key="AppClientInitLogFile" Value="DFLinkClient_InitLog.log" />
+    <Item Key="AppClientLogFile" Value="DFLinkClient_Log.log" />
+    <Item Key="AppClientSplunkLogFile" Value="DFLinkClient_SplunkLog.log" />
+    <Item Key="AppUpdateLogFile" Value="DFLinkUpdate_Log.log" />
+    <Item Key="AppUpdateSplunkLogFile" Value="DFLinkUpdate_SplunkLog.log" />
+    <!-- Test accounts -->
+    <Item Key="AppTestAccountUID_Sandbox" Value="plumbing_test1@demandforce.com" />
+    <Item Key="AppTestAccountPWD_Sandbox" Value="ondemand1!" />
+    <Item Key="AppTestAccountD3ID_Sandbox" Value="137000208" />
+    <Item Key="AppTestAccountLIC_Sandbox" Value="8FDF9CA7-C120-41BC-1F4A-4F06637C6A70" />
+    <Item Key="AppTestAccountUID_Sandbox-Release" Value="plumbing_test1@demandforce.com" />
+    <Item Key="AppTestAccountPWD_Sandbox-Release" Value="ondemand1!" />
+    <Item Key="AppTestAccountD3ID_Sandbox-Release" Value="137000208" />
+    <Item Key="AppTestAccountLIC_Sandbox-Release" Value="8FDF9CA7-C120-41BC-1F4A-4F06637C6A70" />
+    <Item Key="AppTestAccountUID_QA" Value="salontest@demandforce.com" />
+    <Item Key="AppTestAccountPWD_QA" Value="ondemand1!" />
+    <Item Key="AppTestAccountD3ID_QA" Value="109000812" />
+    <Item Key="AppTestAccountLIC_QA" Value="C849B3B5-4AB7-5FEB-4598-D3BE4340BD98" />
+    <!-- Configuration for AppBuild plugin -->
+    <Item Key="BuildReleaseRoot" Value="\\10.10.0.205\DFLinkWorkSpace" />
+    <!-- <Item Key="BuildReleaseBranch" Value="Sandbox" />  -->
+    <Item Key="BuildReleaseBranch" Value="Sandbox-Release" />
+    <!-- <Item Key="BuildReleaseBranch" Value="QA" /> -->
+    <Item Key="BuildReleaseAccessUID" Value="hyd-pc\demandforce" />
+    <Item Key="BuildReleaseAccessPWD" Value="ondemand#1" />
+    <Item Key="D3DownloadUrl" Value="http://dflink.sandbox.demandforced3.com/dflinksandbox/setup/" />
+    <!-- Configuration for AppConfig plugin -->
+    <Item Key="DFSAuthUrl_Sandbox" Value="http://10.10.0.225:3001/login" />
+    <Item Key="DFSServiceUrl_Sandbox" Value="http://10.10.0.225:3001" />
+    <Item Key="D3ServiceUrl_Sandbox" Value="http://dflink.sandbox.demandforced3.com" />
+    <Item Key="D3TwoWayUrl_Sandbox" Value="http://10.10.0.225:3001/v1.0" />
+    <Item Key="UpdateUrl_Sandbox" Value="http://10.10.0.225:3001/sandbox" />
+    <Item Key="DFSAuthUrl_Sandbox-Release" Value="http://10.10.0.225:3000/login" />
+    <Item Key="DFSServiceUrl_Sandbox-Release" Value="http://10.10.0.225:3000" />
+    <Item Key="D3ServiceUrl_Sandbox-Release" Value="http://dflink.sandbox.demandforced3.com" />
+    <Item Key="D3TwoWayUrl_Sandbox-Release" Value="http://10.10.0.225:3000/v1.0" />
+    <Item Key="UpdateUrl_Sandbox-Release" Value="http://10.10.0.225:3000/sandbox" />
+    <Item Key="DFSAuthUrl_QA" Value="https://dfs.demandforce.com/login" />
+    <Item Key="DFSServiceUrl_QA" Value="https://dfs.demandforce.com" />
+    <Item Key="D3ServiceUrl_QA" Value="https://secure.demandforce.com" />
+    <Item Key="D3TwoWayUrl_QA" Value="https://connect.demandforced3.com/v1.0" />
+    <Item Key="UpdateUrl_QA" Value="https://secure.demandforce.com/dflinkqa/setup/" />
+    <Item Key="MockServerRoot" Value="\\172.18.8.225\DFSTestServer" />
+    <Item Key="OrgConfigPath" Value="\\172.18.8.225\DFSTestServer\public\orgconfig" />
+    <Item Key="MockServerAccessUID" Value="vm" />
+    <Item Key="MockServerAccessPWD" Value="ondemand" />
+    <!-- Configuration for AppService plugin -->
+    <Item Key="SyncServiceName" Value="Demandforce Sync Client" />
+    <Item Key="UpdateServiceName" Value="Demandforce Auto Update" />
+    <!-- Configuration for MgmtSystem plugin -->
+    <Item Key="PMSConfigFile" Value="df_config.json" />
+  </Items>
+</AppConfig>

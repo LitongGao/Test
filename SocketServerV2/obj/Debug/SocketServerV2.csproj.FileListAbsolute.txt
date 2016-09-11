@@ -1,0 +1,10 @@
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.exe.config
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.exe
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.pdb
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\SocketServerV2\obj\Debug\SocketServerV2.exe
+c:\users\gao_l\documents\visual studio 2015\Projects\Socket_server\SocketServerV2\obj\Debug\SocketServerV2.pdb
+C:\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.exe.config
+C:\Socket_server\SocketServerV2\obj\Debug\SocketServerV2.exe
+C:\Socket_server\SocketServerV2\obj\Debug\SocketServerV2.pdb
+C:\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.exe
+C:\Socket_server\SocketServerV2\bin\Debug\SocketServerV2.pdb

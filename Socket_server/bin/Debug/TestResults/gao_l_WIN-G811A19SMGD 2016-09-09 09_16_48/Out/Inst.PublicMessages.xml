@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <!-- Wizard shared items -->
+    <Item Key="WizardBackButtonName" Value="&lt; Back" />
+    <Item Key="WizardNextButtonName" Value="Next &gt;" />
+    <Item Key="WizardCancelButtonName" Value="Cancel" />
+
+    <!-- Prepare Install wizard page -->
+    <Item Key="PreparePage_Title" Value="Preparing to Install..." />
+
+    <!-- Welcome wizard page -->
+    <Item Key="WelcomePage_Title" Value="Welcome to the InstallShield Wizard for Demandforce Sync Client" />
+
+    <!-- Portal Login wizard page -->
+    <Item Key="LoginPage_Title" Value="Demandforce Portal Login" />
+    <Item Key="LoginPage_FailureMessage_Template" Value="Login Failure. Retry by entering correct user name and password.  {0}" />
+    <Item Key="LoginPage_FailureMessage_EmptyInput" Value="User name or password was empty" />
+    <Item Key="LoginPage_FailureMessage_Unauthorized" Value="The HTTP response status code is Unauthorized" />
+    <Item Key="LoginPage_FailureMessage_Network" Value="HTTP request failed, check your network connection." />
+
+    <!-- Management System Selection wizard page -->
+    <Item Key="MgmtSysPage_Title" Value="Management System  Selection" />
+
+    <!-- Destination wizard page -->
+    <Item Key="DestPage_Title" Value="Destination Folder" />
+    <Item Key="DestPage_ChangeButtonName" Value="Change..." />
+
+    <!-- Change Destination dialog -->
+    <Item Key="ChangeDestDialog_OkButtonName" Value="OK" />
+    <Item Key="ChangeDestDialog_CancelButtonName" Value="Cancel" />
+
+    <!-- Ready Install wizard page -->
+    <Item Key="ReadyPage_Title" Value="Ready to Install the Program" />
+    <Item Key="ReadyDialog_InstallButtonName" Value="Install" />
+
+    <!-- Processing wizard page -->
+    <Item Key="ProcessingPage_Title_Installing" Value="Installing Demandforce Sync Client" />
+    <Item Key="ProcessingPage_Title_Uninstalling" Value="Uninstalling Demandforce Sync Client" />
+
+    <!-- Complete wizard page -->
+    <Item Key="CompletePage_Title" Value="InstallShield Wizard Completed" />
+    <Item Key="CompletePage_FinishButtonName" Value="Finish" />
+    <Item Key="CompletePage_Message_Interrupted" Value="The wizard was interrupted before Demandforce Sync Client could be completely installed." />
+    <Item Key="CompletePage_Message_Succeeded" Value="Congratulations!! Demandforce Sync Client is installed successfully. Configure your system for sync using Demandforce Admin application in system tray. " />
+    <Item Key="CompletePage_Message_Uninstalled" Value="The InstallShield Wizard has sucessfully uninstalled Demandforce Sync Client. Click Finish to exit the wizard." />
+
+    <!-- Cancel Dialog -->
+    <Item Key="CancelDialog_Message" Value="Are you sure you want to cancel Demandforce Sync Client installation?" />
+    <Item Key="CancelDialog_YesButtonName" Value="Yes" />
+    <Item Key="CancelDialog_NoButtonName" Value="No" />
+
+    <!-- Help Dialog -->
+    <Item Key="HelpDialogTitle" Value="Demandforce Sync Client  - InstallShield Wizard" />
+
+    <!--Program Maintenance-->
+    <Item Key="MaintenancePage_Title" Value="Program Maintenance" />
+    <Item Key="MaintenancePage_RepairRadioButton" Value="Repair" />
+    <Item Key="MaintenancePage_RemoveRadioButton" Value="Remove" />
+
+    <!--Ready Repair wized page-->
+    <Item Key="RepairPage_Title" Value="Ready to Repair the Program" />
+    <Item Key="RepairPage_InstallButtonName" Value="Install" />
+
+    <!--Ready Remove wized page-->
+    <Item Key="RemovePage_Title" Value="Remove the Program" />
+    <Item Key="RemovePage_RemoveButtonName" Value="Remove" />
+  </Items>
+</AppConfig>

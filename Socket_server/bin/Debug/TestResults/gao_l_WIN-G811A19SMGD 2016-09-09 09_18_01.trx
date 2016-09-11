@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b61eef08-1793-4862-b069-f962028eb751" name="gao_l@WIN-G811A19SMGD 2016-09-09 09:18:01" runUser="WIN-G811A19SMGD\gao_l" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9d1c65ed-2c3b-4684-9d04-11eedcaf6b84">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="gao_l_WIN-G811A19SMGD 2016-09-09 09_18_01" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-09-09T09:18:01.9960614+08:00" queuing="2016-09-09T09:18:02.5765364+08:00" start="2016-09-09T09:18:02.7359682+08:00" finish="2016-09-09T09:18:10.8562303+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestBuildUninstall" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af">
+      <Description>Verify the application can be uninstalled successfully via MSIEXEC.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="7da1999f-7f9a-44c5-bcb3-94cf0a865649" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuildUninstall" />
+    </UnitTest>
+    <UnitTest name="TestSyncClientService" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f">
+      <Description>Verify the Sync Client Service can be started and stopped.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="cdf81ace-ea40-4ece-a948-9b725c639bea" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSyncClientService" />
+    </UnitTest>
+    <UnitTest name="TestAutoUpdateService" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="5ff5b51f-4577-3960-32b5-b703cfb7b72b">
+      <Description>Verify the Auto Update Service can be started and stopped</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="0957899c-6b1e-496d-8b24-f653a05387df" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAutoUpdateService" />
+    </UnitTest>
+    <UnitTest name="TestBuildInstall" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="c78eb7ec-47e7-c81c-b7b3-574d74d0410e">
+      <Description>Verify the application can be installed successfully.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="c1c19322-6aa0-4f5a-9c41-960f16806c79" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuildInstall" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5ff5b51f-4577-3960-32b5-b703cfb7b72b" executionId="0957899c-6b1e-496d-8b24-f653a05387df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c78eb7ec-47e7-c81c-b7b3-574d74d0410e" executionId="c1c19322-6aa0-4f5a-9c41-960f16806c79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af" executionId="7da1999f-7f9a-44c5-bcb3-94cf0a865649" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f" executionId="cdf81ace-ea40-4ece-a948-9b725c639bea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0957899c-6b1e-496d-8b24-f653a05387df" testId="5ff5b51f-4577-3960-32b5-b703cfb7b72b" testName="TestAutoUpdateService" computerName="WIN-G811A19SMGD" duration="00:00:00.2531552" startTime="2016-09-09T09:18:02.7660755+08:00" endTime="2016-09-09T09:18:03.4074397+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0957899c-6b1e-496d-8b24-f653a05387df">
+      <Output>
+        <StdOut>[INFO] Start test: TestAutoUpdateService
+[INFO] Description: Verify the Auto Update Service can be started and stopped
+[INFO] Repro Steps:
+[INFO] 1. Stopping service 'Demandforce Auto Update'.
+[ERROR] Unexpected exception occurred during Build Acceptance Test!
+System.InvalidOperationException: Service Demandforce Auto Update was not found on computer '.'. ---&gt; System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at DFLR.Automation.Utilities.AppService.ServiceUtility.StopService(String serviceName) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppService\ServiceUtility.cs:line 75
+   at DFLR.Automation.Utilities.AppService.AppServiceHelper.StopService(AppServices service) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppService\AppServiceHelper.cs:line 36
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.TestAutoUpdateService() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 145</StdOut>
+        <ErrorInfo>
+          <Message>Exception of type 'Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException' was thrown.</Message>
+          <StackTrace>   at DFLR.Automation.GenericOM.Common.GenericUtility.LogError(Exception exc, String format, Object[] args) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.GenericOM\Common\GenericUtility.cs:line 278
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.TestAutoUpdateService() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 152
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1c19322-6aa0-4f5a-9c41-960f16806c79" testId="c78eb7ec-47e7-c81c-b7b3-574d74d0410e" testName="TestBuildInstall" computerName="WIN-G811A19SMGD" duration="00:00:07.3243659" startTime="2016-09-09T09:18:03.4234785+08:00" endTime="2016-09-09T09:18:10.7658609+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1c19322-6aa0-4f5a-9c41-960f16806c79">
+      <Output>
+        <StdOut>[INFO] Start test: TestBuildInstall
+[INFO] Description: Verify the application can be installed successfully.
+[INFO] Repro Steps:
+[INFO] 1. Launch installer from 'C:\Pearl\DISK1\Sandbox-Release\setup.exe', expect to see Prepare Install page.
+[ERROR] Unexpected exception thrown from inside TestRealm!
+System.InvalidOperationException: WaitForInputIdle failed.  This could be because the process does not have a graphical interface.
+   at System.Diagnostics.Process.WaitForInputIdle(Int32 milliseconds)
+   at System.Diagnostics.Process.WaitForInputIdle()
+   at DFLR.Automation.Inst.InstallerOM.UIMaps.MainApp.LaunchMainAppExpectPrepareInstallPage() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.InstallerOM\MainApp.cs:line 64
+   at DFLR.Automation.Inst.TestFeatures.FeatureHelper.InstallApplicationViaUI() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureHelper\FeatureHelper.cs:line 72</StdOut>
+        <ErrorInfo>
+          <Message>Exception of type 'Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException' was thrown.</Message>
+          <StackTrace>   at DFLR.Automation.GenericOM.Common.GenericUtility.LogError(Exception exc, String format, Object[] args) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.GenericOM\Common\GenericUtility.cs:line 270
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.TestBuildInstall() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7da1999f-7f9a-44c5-bcb3-94cf0a865649" testId="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af" testName="TestBuildUninstall" computerName="WIN-G811A19SMGD" duration="00:00:00.0030314" startTime="2016-09-09T09:18:10.7758500+08:00" endTime="2016-09-09T09:18:10.7818618+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7da1999f-7f9a-44c5-bcb3-94cf0a865649">
+      <Output>
+        <StdOut>[INFO] Start test: TestBuildUninstall
+[INFO] Description: Verify the application can be uninstalled successfully via MSIEXEC.
+[INFO] Repro Steps:
+[INFO] The application is absent from system, ignoring this test.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cdf81ace-ea40-4ece-a948-9b725c639bea" testId="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f" testName="TestSyncClientService" computerName="WIN-G811A19SMGD" duration="00:00:00.0023918" startTime="2016-09-09T09:18:10.7858511+08:00" endTime="2016-09-09T09:18:10.7899817+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdf81ace-ea40-4ece-a948-9b725c639bea">
+      <Output>
+        <StdOut>[INFO] Start test: TestSyncClientService
+[INFO] Description: Verify the Sync Client Service can be started and stopped.
+[INFO] Repro Steps:
+[INFO] 1. Stopping service 'Demandforce Sync Client'.
+[ERROR] Unexpected exception occurred during Build Acceptance Test!
+System.InvalidOperationException: Service Demandforce Sync Client was not found on computer '.'. ---&gt; System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at DFLR.Automation.Utilities.AppService.ServiceUtility.StopService(String serviceName) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppService\ServiceUtility.cs:line 75
+   at DFLR.Automation.Utilities.AppService.AppServiceHelper.StopService(AppServices service) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppService\AppServiceHelper.cs:line 36
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.TestSyncClientService() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 127</StdOut>
+        <ErrorInfo>
+          <Message>Exception of type 'Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException' was thrown.</Message>
+          <StackTrace>   at DFLR.Automation.GenericOM.Common.GenericUtility.LogError(Exception exc, String format, Object[] args) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.GenericOM\Common\GenericUtility.cs:line 278
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.TestSyncClientService() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

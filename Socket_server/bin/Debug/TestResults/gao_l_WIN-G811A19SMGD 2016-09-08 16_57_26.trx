@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9ca7334b-e2af-4c5c-a0ba-fa7117113fee" name="gao_l@WIN-G811A19SMGD 2016-09-08 16:57:26" runUser="WIN-G811A19SMGD\gao_l" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f8678c0b-6d74-452a-b8a1-7837d71518d1">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="gao_l_WIN-G811A19SMGD 2016-09-08 16_57_26" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-09-08T16:57:26.5297877+08:00" queuing="2016-09-08T16:57:27.0659631+08:00" start="2016-09-08T16:57:27.2219692+08:00" finish="2016-09-08T16:57:27.7784582+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Unexpected exception occurred during build copy!
+The type initializer for 'DFLR.Automation.Utilities.AppBuild.AppBuildHelper' threw an exception.
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper.GetLatestBuild()
+   at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize(TestContext context) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 36
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestBuildUninstall" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af">
+      <Description>Verify the application can be uninstalled successfully via MSIEXEC.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="128119a8-5707-4d6e-9680-928196523961" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuildUninstall" />
+    </UnitTest>
+    <UnitTest name="TestSyncClientService" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f">
+      <Description>Verify the Sync Client Service can be started and stopped.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="cd2ccddc-3394-4ddb-8621-856c00676c43" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSyncClientService" />
+    </UnitTest>
+    <UnitTest name="TestAutoUpdateService" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="5ff5b51f-4577-3960-32b5-b703cfb7b72b">
+      <Description>Verify the Auto Update Service can be started and stopped</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="094e0130-0aa0-4eeb-8c59-09060676eb24" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAutoUpdateService" />
+    </UnitTest>
+    <UnitTest name="TestBuildInstall" storage="c:\df-auto\dflrautofx\bin\debug\dflr.automation.inst.featurebat.dll" id="c78eb7ec-47e7-c81c-b7b3-574d74d0410e">
+      <Description>Verify the application can be installed successfully.</Description>
+      <Owners>
+        <Owner name="Justin Jia" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="GenericConfig.xml" />
+        <DeploymentItem filename="Inst.FeatureBAT.xml" />
+        <DeploymentItem filename="Inst.PublicConfig.xml" />
+        <DeploymentItem filename="Inst.PublicMessages.xml" />
+        <DeploymentItem filename="Inst.IdnStrings.xml" />
+      </DeploymentItems>
+      <Execution id="23d232af-6230-4a64-8b54-113f8d31b898" />
+      <TestMethod codeBase="C:/DF-AUTO/DFLRAutoFx/bin/Debug/DFLR.Automation.Inst.FeatureBAT.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests, DFLR.Automation.Inst.FeatureBAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuildInstall" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5ff5b51f-4577-3960-32b5-b703cfb7b72b" executionId="094e0130-0aa0-4eeb-8c59-09060676eb24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c78eb7ec-47e7-c81c-b7b3-574d74d0410e" executionId="23d232af-6230-4a64-8b54-113f8d31b898" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af" executionId="128119a8-5707-4d6e-9680-928196523961" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f" executionId="cd2ccddc-3394-4ddb-8621-856c00676c43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="094e0130-0aa0-4eeb-8c59-09060676eb24" testId="5ff5b51f-4577-3960-32b5-b703cfb7b72b" testName="TestAutoUpdateService" computerName="WIN-G811A19SMGD" startTime="2016-09-08T16:57:27.2550410+08:00" endTime="2016-09-08T16:57:27.6351762+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="094e0130-0aa0-4eeb-8c59-09060676eb24">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize threw exception. System.TypeInitializationException: System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.AppBuild.AppBuildHelper' threw an exception. ---&gt; System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper' threw an exception. ---&gt; System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Pearl\Sandbox-Release_df_config.json'..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.MgmtSystem\MgmtSystemHelper.cs:line 27
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper.GetMgmtSystemNameByEnum(SupportPMS system)
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper.InitializePluginDictionary() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 197
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 41
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize(TestContext context) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23d232af-6230-4a64-8b54-113f8d31b898" testId="c78eb7ec-47e7-c81c-b7b3-574d74d0410e" testName="TestBuildInstall" computerName="WIN-G811A19SMGD" startTime="2016-09-08T16:57:27.6472026+08:00" endTime="2016-09-08T16:57:27.6682706+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23d232af-6230-4a64-8b54-113f8d31b898">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize threw exception. System.TypeInitializationException: System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.AppBuild.AppBuildHelper' threw an exception. ---&gt; System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper' threw an exception. ---&gt; System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Pearl\Sandbox-Release_df_config.json'..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.MgmtSystem\MgmtSystemHelper.cs:line 27
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper.GetMgmtSystemNameByEnum(SupportPMS system)
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper.InitializePluginDictionary() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 197
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 41
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize(TestContext context) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="128119a8-5707-4d6e-9680-928196523961" testId="5dc1ad3e-2f7c-903c-209c-af8b9ef7f4af" testName="TestBuildUninstall" computerName="WIN-G811A19SMGD" startTime="2016-09-08T16:57:27.6767297+08:00" endTime="2016-09-08T16:57:27.6832948+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="128119a8-5707-4d6e-9680-928196523961">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize threw exception. System.TypeInitializationException: System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.AppBuild.AppBuildHelper' threw an exception. ---&gt; System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper' threw an exception. ---&gt; System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Pearl\Sandbox-Release_df_config.json'..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.MgmtSystem\MgmtSystemHelper.cs:line 27
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper.GetMgmtSystemNameByEnum(SupportPMS system)
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper.InitializePluginDictionary() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 197
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 41
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize(TestContext context) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd2ccddc-3394-4ddb-8621-856c00676c43" testId="3f8b8fd3-7acf-ee04-15ee-5efdbf88a47f" testName="TestSyncClientService" computerName="WIN-G811A19SMGD" startTime="2016-09-08T16:57:27.6928125+08:00" endTime="2016-09-08T16:57:27.7042881+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd2ccddc-3394-4ddb-8621-856c00676c43">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize threw exception. System.TypeInitializationException: System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.AppBuild.AppBuildHelper' threw an exception. ---&gt; System.TypeInitializationException: The type initializer for 'DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper' threw an exception. ---&gt; System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Pearl\Sandbox-Release_df_config.json'..</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.MgmtSystem\MgmtSystemHelper.cs:line 27
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Utilities.MgmtSystem.MgmtSystemHelper.GetMgmtSystemNameByEnum(SupportPMS system)
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper.InitializePluginDictionary() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 197
+   at DFLR.Automation.Utilities.AppBuild.AppBuildHelper..cctor() in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Utilities.AppBuild\AppBuildHelper.cs:line 41
+ --- End of inner exception stack trace ---
+    at DFLR.Automation.Inst.TestFeatures.BuildAcceptanceTests.ClassInitialize(TestContext context) in C:\DF-AUTO\DFLRAutoFx\DFLR.Automation.Inst.FeatureBAT\BuildAcceptanceTests.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <!-- Processing wizard page -->
+    <Item Key="ProcessingPage_StatusTextId" Value="31" />
+    
+    <!-- Cancel dialog -->
+    <Item Key="CancelDialog_MessageTextId" Value="21" />
+
+    <!-- Help Dialog -->
+    <Item Key="HelpDialog_OkButtonId" Value="1" />
+  </Items>
+</AppConfig>

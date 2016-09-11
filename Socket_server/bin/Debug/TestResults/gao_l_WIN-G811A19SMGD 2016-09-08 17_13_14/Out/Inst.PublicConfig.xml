@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item Key="LogLevel" Value="4" />
+    <Item Key="InstallerFileName" Value="DISK1\{0}\setup.exe" />
+  </Items>
+</AppConfig>
