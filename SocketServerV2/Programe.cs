@@ -12,7 +12,7 @@ using System.IO;
 
 namespace SocketClient
 {
-    class Program
+    public class Program
     {
         private static byte[] size = new byte[1024];
         static Socket clientSocket;
