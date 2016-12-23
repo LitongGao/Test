@@ -1,0 +1,6 @@
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\bin\Debug\SocketServerV2.exe.config
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\bin\Debug\SocketServerV2.exe
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\bin\Debug\SocketServerV2.pdb
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\obj\Debug\SocketServerV2.exe
+E:\Git\Gaolitong\Branch\Test\Test\SocketServerV2\obj\Debug\SocketServerV2.pdb

@@ -20,3 +20,6 @@ E:\Socket_server\Socket_server\obj\Debug\Socket_server.pdb
 E:\Socket_server\Socket_server\bin\Debug\Socket_server.exe
 E:\Socket_server\Socket_server\bin\Debug\Socket_server.pdb
 E:\Socket_server\Socket_server\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+E:\Git\Gaolitong\Branch\Test\Test\Socket_server\bin\Debug\Socket_server.exe.config
+E:\Git\Gaolitong\Branch\Test\Test\Socket_server\obj\Debug\Socket_server.exe
+E:\Git\Gaolitong\Branch\Test\Test\Socket_server\obj\Debug\Socket_server.pdb
